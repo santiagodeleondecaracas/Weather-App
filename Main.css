@@ -1,0 +1,170 @@
+body {
+display: flex;
+justify-content: center;
+background-image: url("Skyline.jpg") ; 
+align-items: center;
+height: 100vh;
+margin: 0;
+font-size: 120%;
+}
+
+element.style{
+
+}
+
+.card{
+  background: black;
+  color: white;
+  padding: 2em;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1em;
+}
+
+div{
+  display: block;
+}
+.search{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button{
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 46px;
+  width:  46px;
+  outline: none;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+input.search-bar{
+  border: none;
+  outline: none;
+  padding: 0.5em 1em;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-family: inherit;
+  font-size: 120%;
+  width: calc(100% - 100px );
+
+}
+
+buttom:hover{
+  background:transparent ;
+}
+
+/*body {
+  background-color: yellow;
+background-image: url("Skyline.jpg") ; 
+font-family: "montserrat", sans-serif;
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app-wrap{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, black rgba(0,0,0,0.3)) ;
+
+
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 400px 15px 15px;
+}
+
+header input{
+  width: 100%;
+  max-width: 280px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  background-color: rgba(255,255,255 0.3);
+  border-radius:  16px 0px 16pc 0px;
+border-bottom: 3px solid orange;
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;  
+}
+
+header input: focus{
+  background-color: gray rgba(255,255,255,0.6);
+}
+
+main{
+  flex: 1 1 100%;
+  padding: 25px 25px 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.button .buttons{
+  background-color: darkblue;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  /*display: inline-block;*/
+  font-size: 16px;
+}
+
+/*.location .city{
+  color:  white;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}*/
+
+/*.location .date{
+  color: white;
+  font-size: 16px;
+}/*
+
+/*.current .temp{
+  color: white;
+  font-size: 102px;
+  fon´-weight: 900;
+  margin: 20pc 0px;
+  text-shadow: 2px 10px black rgba(0,0,0,0.6);
+
+}*/
+
+/*.current .temp span{
+  font-weight: 500;
+}*/
+
+/*.current .weather{
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px black rgba(0,0,0,0.4);
+
+}*/
+
+/*.current .hi-low{
+  color: blue;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0px 4px black rgba(0,0,0,0.4);
+}*/
